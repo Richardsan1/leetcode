@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 type ListNode struct {
 	Val  int
 	Next *ListNode
@@ -40,12 +36,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 
 	return firstNode.Next
-}
-
-func main() {
-
-	n1 := &ListNode{1, nil}
-	node := &ListNode{0, n1}
-	node = node.Next.Next
-	fmt.Println(node)
 }

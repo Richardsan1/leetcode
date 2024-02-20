@@ -11,8 +11,5 @@ func isPalindrome(x int) bool {
 		tmp = tmp / 10
 	}
 
-	if x == reverse {
-		return true
-	}
-	return false
+	return x == reverse
 }

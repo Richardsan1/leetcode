@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func myAtoi(s string) int {
 	INT_MAX := 2147483647
 	var num int
@@ -49,6 +47,6 @@ func myAtoi(s string) int {
 	return num
 }
 
-func main() {
-	fmt.Println(myAtoi("  +  413"))
-}
+// func main() {
+// 	fmt.Println(myAtoi("  +  413"))
+// }
